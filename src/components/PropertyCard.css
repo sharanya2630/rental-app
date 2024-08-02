@@ -1,0 +1,213 @@
+/* 
+.cardContainer {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding: 16px;
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  background-color: #ffffff;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.cardMedia {
+  border-radius: 8px 8px 0 0;
+}
+
+.cardContent {
+  padding: 16px;
+}
+
+.cityIcon {
+  color: #1976d2;
+}
+
+.priceIcon {
+  color: #e91e63; 
+}
+
+.bedroomIcon {
+  color: #4caf50;
+}
+
+.modalContent {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 24px;
+  background-color: #fff;
+}
+
+.modalHeader {
+  margin-bottom: 16px;
+}
+
+.bookNowButton {
+  background-color: #1976d2;
+  color: #fff;
+  &:hover {
+    background-color: #155a8a;
+  }
+}
+
+.confirmButton {
+  background-color: #4caf50;
+  color: #fff;
+  &:hover {
+    background-color: #388e3c;
+  }
+}
+
+
+.cardContainer {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 16px;
+  }
+  
+  .card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background-color: #ffffff; 
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .cardMedia {
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .cardContent {
+    padding: 16px;
+  }
+  
+  .cityIcon {
+    color: #1976d2; 
+  }
+  .priceIcon {
+    color: #e91e63; 
+  }
+  
+  .bedroomIcon {
+    color: #4caf50;
+  }
+  
+  .modalContent {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 24px;
+    background-color: #fff;
+  }
+  
+  .modalHeader {
+    margin-bottom: 16px;
+  }
+  
+  .bookNowButton {
+    background-color: #1976d2;
+    color: #fff;
+    &:hover {
+      background-color: #155a8a;
+    }
+  }
+  
+  .confirmButton {
+    background-color: #4caf50;
+    color: #fff;
+    &:hover {
+      background-color: #388e3c;
+    }
+} */
+
+
+
+/* src/components/PropertyCard.css */
+
+.cardContainer {
+    display: flex;
+    justify-content: center; /* Center cards horizontally */
+    align-items: center; /* Center cards vertically */
+    padding: 16px;
+  }
+  
+  .card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background-color: #ffffff; /* White background for the card */
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .cardMedia {
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .cardContent {
+    padding: 16px;
+  }
+  
+  .cityIcon {
+    color: #d26c19; /* Blue color for the city icon */
+  }
+  
+  .priceIcon {
+    color: #e91e63; /* Pink color for the price icon */
+  }
+  
+  .bedroomIcon {
+    color: #256d1d; /* Green color for the bedroom icon */
+  }
+  
+  .modalContainer {
+    display: flex;
+    justify-content: center; /* Center the modal horizontally */
+    align-items: center; /* Center the modal vertically */
+  }
+  
+  .modalContent {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 24px;
+    background-color: #e1e7f3;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .modalHeader {
+    margin-bottom: 16px;
+  }
+  
+  .bookNowButton {
+    background-color: #ee3929;
+    color: #fff;
+  }
+  
+  .bookNowButton:hover {
+    background-color: #155a8a;
+  }
+  
+  .confirmButton {
+    background-color: #f32a2a;
+    color: #fff;
+  }
+  
+  .confirmButton:hover {
+    background-color: #ef1d1d;
+  }
+  
